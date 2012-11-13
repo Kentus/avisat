@@ -1,2 +1,71 @@
-/* CSS Document */
+﻿div, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 
+.wrapper {
+	width: 100%;
+	height: 978px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.sus {
+	width: 100%;
+	height: 4px;
+	background: #8DC63F;
+}
+
+.stanga {
+	float: left;
+	width: 20%;
+	min-width: 200px;
+	height: 974px;
+	background: #481B11 url('images/stanga_bg.png') repeat-x;
+}
+
+.gradient {
+	position: absolute;
+	width:20%;
+	min-width: 200px;
+	height: 974px;
+}
+
+.logo {
+	
+}
+
+.descriere {
+	
+}
+
+.jos {
+	
+}
+
+.dreapta {
+	float: right;
+	width: 80%;
+	height: 974px;
+}
+
+.dreapta1 {
+	
+}
+
+.dreapta2 {
+	
+}
+
+.dreapta3 {
+	
+}
+
+.social {
+	
+}
+
+.galerie {
+	
+}
