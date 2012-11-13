@@ -34,8 +34,7 @@
         <div class="dreapta">
         
         	<div class="dreapta1">
-            </div>
-            <div class="dreapta2">
+            </div><div class="dreapta2">
                 <div class="dreapta3">
                 </div>
                 
