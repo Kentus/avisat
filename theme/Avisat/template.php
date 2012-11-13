@@ -19,6 +19,7 @@
         <div class="stanga">
         	<img class="gradient" src="<?php get_theme_url(); ?>/images/stanga_gradient.png" alt>
         	<div class="logo">
+            	<img src="<?php get_theme_url(); ?>/images/logo.png" alt>
             </div>
             <div class="descriere">
             	<?php get_component('descriere'); ?>

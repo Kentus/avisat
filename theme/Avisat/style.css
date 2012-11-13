@@ -33,15 +33,22 @@
 }
 
 .logo {
-	
+	width:100%;
+	text-align:center;
 }
 
 .descriere {
-	
+	width:100%;
+	text-align:center;
+	color:#FFF;
 }
 
 .jos {
-	
+	color:#FFF;
+	width:100%;
+	text-align:center;
+	vertical-align:bottom;
+	margin-top:505px;
 }
 
 .dreapta {
