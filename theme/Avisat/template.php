@@ -24,7 +24,7 @@
             <div class="descriere">
             	<?php get_component('descriere'); ?>
             </div>
-            <ul>
+            <ul class="menu_ul">
             	<?php get_navigation(return_page_slug()); ?>
             </ul>
             <div class="jos">
@@ -33,13 +33,8 @@
         </div>
         
         <div class="dreapta">
-        
-        	<div class="dreapta1">
-            </div><div class="dreapta2">
-                <div class="dreapta3">
+        		<?php get_page_content();?>
                 </div>
-                
-            </div>
             
             <div class="social">
             	<?php get_component('social'); ?>

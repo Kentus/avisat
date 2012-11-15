@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channel><item><title><![CDATA[descriere]]></title><slug>descriere</slug><value><![CDATA[&lt;div class=&quot;descriere&quot;&gt;10 ani de experienta&lt;br/&gt;
+<channel><item><title><![CDATA[contact]]></title><slug>contact</slug><value><![CDATA[Sat: Slanic &lt;br/&gt;
+Localitate: Aninoasa &lt;br/&gt;
+Judet: Arges &lt;br/&gt;
+Telefon: &lt;div class=&quot;contactColorat&quot;&gt;0248/577137&lt;/div&gt; &lt;br/&gt;
+E-mail: &lt;div class=&quot;contactColorat&quot;&gt; comenzi@avisat.ro&lt;/div&gt;]]></value></item><item><title><![CDATA[descriere]]></title><slug>descriere</slug><value><![CDATA[&lt;div class=&quot;descriere&quot;&gt;10 ani de experienta&lt;br/&gt;
 Comercializare material lemnos
-&lt;/div&gt;]]></value></item></channel>
+&lt;/div&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item></channel>

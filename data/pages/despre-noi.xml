@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 13 Nov 2012 02:12:08 +0000</pubDate><title><![CDATA[Despre noi]]></title><url><![CDATA[despre-noi]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Despre noi]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[index]]></parent><content><![CDATA[]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+<item><pubDate>Thu, 15 Nov 2012 00:10:38 +0000</pubDate><title><![CDATA[Despre noi]]></title><url><![CDATA[despre-noi]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Despre noi]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[index]]></parent><content><![CDATA[&lt;div class=&quot;dreapta1&quot;&gt;
+	&lt;center&gt;
+		&lt;div class=&quot;despre_noi_text&quot;&gt;
+			DESPRE NOI&lt;/div&gt;
+		&lt;div class=&quot;text_jos_descriere&quot;&gt;
+			AVISAT SRL comercializeaza cherestea de molid si brad clasele A, B si C si cherestea&lt;br /&gt;
+			de fag si stejar clasele A, B si rustic de diferite dimensiuni, tivita sau netivita pe&lt;br /&gt;
+			diferite dimensiuni si calitati si efectueaza prestari de servicii privind debitarea&lt;br /&gt;
+			cherestelei.&lt;/div&gt;
+	&lt;/center&gt;
+&lt;/div&gt;
+&lt;div class=&quot;dreapta2&quot;&gt;
+	&lt;center&gt;
+		&lt;div class=&quot;echipa_text&quot;&gt;
+			ECHIPA&lt;/div&gt;
+		&lt;div class=&quot;poza_echipa&quot;&gt;
+			&lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt;&lt;br /&gt;
+			&lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt;&lt;br /&gt;
+			&lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt;&lt;br /&gt;
+			&lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt;&lt;br /&gt;
+			&lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;{% themelink %}/images/none_team.png&quot; /&gt;&lt;/div&gt;
+	&lt;/center&gt;
+&lt;/div&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
