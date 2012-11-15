@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channel><item><title><![CDATA[contact]]></title><slug>contact</slug><value><![CDATA[Sat: Slanic &lt;br/&gt;
-Localitate: Aninoasa &lt;br/&gt;
-Judet: Arges &lt;br/&gt;
-Telefon: &lt;div class=&quot;contactColorat&quot;&gt;0248/577137&lt;/div&gt; &lt;br/&gt;
-E-mail: &lt;div class=&quot;contactColorat&quot;&gt; comenzi@avisat.ro&lt;/div&gt;]]></value></item><item><title><![CDATA[descriere]]></title><slug>descriere</slug><value><![CDATA[&lt;div class=&quot;descriere&quot;&gt;10 ani de experienta&lt;br/&gt;
+<channel><item><title><![CDATA[contact]]></title><slug>contact</slug><value><![CDATA[Sat: Slanic&lt;br/&gt;
+Localitate: Aninoasa&lt;br/&gt;
+Judet: Arges&lt;br/&gt;
+Telefon: &lt;span&gt;0248/577137&lt;/span&gt;&lt;br/&gt;
+E-mail: &lt;span&gt;comenzi@avisat.ro&lt;/span&gt;]]></value></item><item><title><![CDATA[contact_dreapta2]]></title><slug>contact_dreapta2</slug><value><![CDATA[&lt;p&gt;
+&lt;form action=&quot;index.php?id=contact&quot; method=&quot;post&quot;&gt;
+&lt;label for=&quot;nume&quot;&gt;Nume&lt;/label&gt;
+&lt;input type=&quot;text&quot; name=&quot;nume&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;label for=&quot;email&quot;&gt;E-mail&lt;/label&gt;
+&lt;input type=&quot;text&quot; name=&quot;email&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;label for=&quot;subiect&quot;&gt;Subiect&lt;/label&gt;
+&lt;input type=&quot;text&quot; name=&quot;subiect&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;label for=&quot;mesaj&quot;&gt;Mesaj&lt;/label&gt;
+&lt;textarea name=&quot;mesaj&quot;&gt;&lt;/textarea&gt;
+&lt;input type=&quot;submit&quot; value=&quot;TRIMITE&quot;&gt;
+&lt;/form&gt;
+&lt;/p&gt;]]></value></item><item><title><![CDATA[contact_dreapta3]]></title><slug>contact_dreapta3</slug><value><![CDATA[&lt;h1&gt;PENTRU COMENZI:&lt;/h1&gt;
+&lt;p&gt;&lt;b&gt;avisatslanic@yahoo.com&lt;/b&gt;&lt;br /&gt;Puteti utiliza formularul din stanga a paginii de contact pentru a ne trimite un e-mail.&lt;/p&gt;
+&lt;p&gt;Va asiguram ca veti primi un raspuns in cel mai scurt timp.&lt;/p&gt;
+&lt;p&gt;Va multumim.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Gheorghe Manole - Director General&lt;/b&gt;&lt;br /&gt;manolegheorghe48@yahoo.com&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Ion David - Inginer Sef&lt;/b&gt;&lt;br /&gt;davidion67@yahoo.com&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Florentina Popescu - Contabil&lt;/b&gt;&lt;br /&gt;popescuflorentina55@yahoo.com&lt;/p&gt;]]></value></item><item><title><![CDATA[descriere]]></title><slug>descriere</slug><value><![CDATA[&lt;div class=&quot;descriere&quot;&gt;10 ani de experienta&lt;br/&gt;
 Comercializare material lemnos
-&lt;/div&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item></channel>
+&lt;/div&gt;]]></value></item><item><title><![CDATA[despre-noi_dreapta2]]></title><slug>despre-noi_dreapta2</slug><value><![CDATA[&lt;h1&gt;ECHIPA&lt;/h1&gt;
+&lt;p&gt;
+	&lt;img src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt;&lt;br /&gt;
+	&lt;img src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt;&lt;br /&gt;
+	&lt;img src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt;&lt;br /&gt;
+	&lt;img src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt;&lt;br /&gt;
+	&lt;img src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt; &lt;img class=&quot;img_echipa&quot; src=&quot;echipa/none_team.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;NUME PRENUME&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;]]></value></item><item><title><![CDATA[despre-noi_dreapta3]]></title><slug>despre-noi_dreapta3</slug><value><![CDATA[&lt;h1&gt;MISIUNE&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item><item><title><![CDATA[themelink]]></title><slug>themelink</slug><value><![CDATA[&lt;?php get_theme_url(); ?&gt;]]></value></item></channel>

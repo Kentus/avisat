@@ -1,0 +1,76 @@
+﻿.dreapta1 iframe {
+	width: 360px;
+	height: 145px;
+}
+
+.dreapta1 h1 {
+	margin-left: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 18px;
+}
+
+.dreapta1 p {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	white-space: normal;
+}
+
+.dreapta1 div {
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	white-space: normal;
+}
+
+.dreapta2 p {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #ffffff;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	white-space: normal;
+}
+
+.dreapta2 input, .dreapta2 textarea {
+	width: 164px;
+	border: 3px #ffffff solid;
+	background: #ffffff;
+	font-size: 12px;
+}
+.dreapta2 input[type=text], .dreapta2 textarea {
+	width: 164px;
+}
+
+.dreapta2 textarea {
+	height: 80px;
+}
+
+.dreapta2 input[type=submit] {
+	width: 80px;
+}
+
+.dreapta3 h1 {
+	margin-left: 15px;
+	margin-top: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 16px;
+}
+
+.dreapta3 p {
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	white-space: normal;
+}
