@@ -298,3 +298,46 @@ a {
 	padding-right:10px;
 	padding-bottom:10px;
 }
+
+.numeprenume_desprenoi {
+	text-align:left;
+	margin-left:28px;
+	width:100%;
+	font-family:Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color:#fff;
+	font-size:17px;
+	font-stretch:condensed;
+	font-weight:bold;
+}
+
+.numeprenume_text_desprenoi {
+	text-align:left;
+	margin-left:28px;
+	width:340px;
+	font-family:Trebuchet MS, Verdana, Geneva, sans-serif;
+	color:#fff;
+	font-size:13px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.misiune_text {
+	margin-top:200px;
+	margin-left:28px;
+	text-align:left;
+	width:100%;
+	font-family:Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color:#35180f;
+	font-size:33px;
+	font-stretch:condensed;
+	font-weight:bold;
+}
+
+.misiune_descriere {
+	text-align:left;
+	margin-left:28px;
+	width:100%;
+	font-family:Trebuchet MS, Verdana, Geneva, sans-serif;
+	color:#000;
+	font-size:13px;
+}

@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 13 Nov 2012 02:16:00 +0000</pubDate><title><![CDATA[Portofoliul]]></title><url><![CDATA[portofoliul]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Portofoliul]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[index]]></parent><content><![CDATA[]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+<item><pubDate>Thu, 15 Nov 2012 09:48:07 +0000</pubDate><title><![CDATA[Portofoliu]]></title><url><![CDATA[portofoliul]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Portofoliu]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[index]]></parent><content><![CDATA[&lt;div class=&quot;dreapta_1&quot;&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;dreapta_2&quot;&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;center&gt;
+	&lt;div class=&quot;dreapta_galerie&quot;&gt;&lt;div class=&quot;dreapta_in_galerie&quot;&gt;
+		(% gallery name=portofoliu %)&lt;/div&gt;&lt;/div&gt;
+&lt;/center&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

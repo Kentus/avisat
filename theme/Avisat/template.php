@@ -8,6 +8,7 @@
 	<?php get_header(); ?>
 	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/style1.css" media="all" />
 
 </head>
 <body id="<?php get_page_slug(); ?>" >

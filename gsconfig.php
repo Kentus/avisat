@@ -76,4 +76,6 @@ define('GSDONOTPING', 1);
 # Disable Codemirror theme editor
 #define("GSNOHIGHLIGHT",true);
 
+define('GSCOOKIEISSITEWIDE', TRUE);
+
 ?>
