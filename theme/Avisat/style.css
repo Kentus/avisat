@@ -155,3 +155,7 @@ a {
 	height: 120px;
 	background: url('images/galerie_bg.png');
 }
+
+productie_wrapper {
+	display: none;
+}

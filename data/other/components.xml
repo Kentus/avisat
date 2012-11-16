@@ -3,17 +3,27 @@
 Localitate: Aninoasa&lt;br/&gt;
 Judet: Arges&lt;br/&gt;
 Telefon: &lt;span&gt;0248/577137&lt;/span&gt;&lt;br/&gt;
-E-mail: &lt;span&gt;comenzi@avisat.ro&lt;/span&gt;]]></value></item><item><title><![CDATA[contact_dreapta2]]></title><slug>contact_dreapta2</slug><value><![CDATA[&lt;p&gt;
+E-mail: &lt;span&gt;comenzi@avisat.ro&lt;/span&gt;]]></value></item><item><title><![CDATA[contact_dreapta2]]></title><slug>contact_dreapta2</slug><value><![CDATA[&lt;script type=&quot;text/javascript&quot;&gt;
+function verifica() {
+	if ($(&#039;#nume&#039;).val() == &#039;&#039;) alert(&#039;Numele este obligatoriu.&#039;); 
+	else if ($(&#039;#email&#039;).val() == &#039;&#039;) alert(&#039;E-mailul este obligatoriu.&#039;);
+	else if ($(&#039;#subiect&#039;).val() == &#039;&#039;) alert(&#039;Subiectul este obligatoriu.&#039;);
+	else if ($(&#039;#mesaj&#039;).val() == &#039;&#039;) alert(&#039;Mesajul este obligatoriu.&#039;);
+	else return true;
+	return false;
+}
+&lt;/script&gt;
+&lt;p&gt;
 &lt;form action=&quot;index.php?id=contact&quot; method=&quot;post&quot;&gt;
 &lt;label for=&quot;nume&quot;&gt;Nume&lt;/label&gt;
-&lt;input type=&quot;text&quot; name=&quot;nume&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;input type=&quot;text&quot; name=&quot;nume&quot; id=&quot;nume&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;label for=&quot;email&quot;&gt;E-mail&lt;/label&gt;
-&lt;input type=&quot;text&quot; name=&quot;email&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;input type=&quot;text&quot; name=&quot;email&quot; id=&quot;email&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;label for=&quot;subiect&quot;&gt;Subiect&lt;/label&gt;
-&lt;input type=&quot;text&quot; name=&quot;subiect&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;input type=&quot;text&quot; name=&quot;subiect&quot; id=&quot;subiect&quot; value=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;label for=&quot;mesaj&quot;&gt;Mesaj&lt;/label&gt;
-&lt;textarea name=&quot;mesaj&quot;&gt;&lt;/textarea&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;input type=&quot;submit&quot; value=&quot;TRIMITE&quot;&gt;
+&lt;textarea name=&quot;mesaj&quot; id=&quot;mesaj&quot;&gt;&lt;/textarea&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;TRIMITE&quot; onclick=&quot;return verifica();&quot;&gt;
 &lt;/form&gt;
 &lt;/p&gt;]]></value></item><item><title><![CDATA[contact_dreapta3]]></title><slug>contact_dreapta3</slug><value><![CDATA[&lt;h1&gt;PENTRU COMENZI:&lt;/h1&gt;
 &lt;p&gt;&lt;b&gt;avisatslanic@yahoo.com&lt;/b&gt;&lt;br /&gt;Puteti utiliza formularul din stanga a paginii de contact pentru a ne trimite un e-mail.&lt;/p&gt;
@@ -34,4 +44,17 @@ Comercializare material lemnos
 
 &lt;h2&gt;NUME PRENUME&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;]]></value></item><item><title><![CDATA[despre-noi_dreapta3]]></title><slug>despre-noi_dreapta3</slug><value><![CDATA[&lt;h1&gt;MISIUNE&lt;/h1&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item><item><title><![CDATA[themelink]]></title><slug>themelink</slug><value><![CDATA[&lt;?php get_theme_url(); ?&gt;]]></value></item></channel>
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;]]></value></item><item><title><![CDATA[productie_dreapta2]]></title><slug>productie_dreapta2</slug><value><![CDATA[&lt;p&gt;
+&lt;?php
+
+if ($handle = opendir(&#039;productie&#039;)) {
+    while (false !== ($entry = readdir($handle))) {
+        if ($entry[0] != &#039;.&#039;)
+        	echo &#039;
+        	&lt;a class=&quot;fancybox&quot; href=&quot;productie/&#039;.$entry.&#039;&quot; data-fancybox-group=&quot;gallery&quot; title=&quot;&quot;&gt;&lt;img src=&quot;productie/&#039;.$entry.&#039;&quot; alt /&gt;&lt;/a&gt; &#039;;
+    }
+    closedir($handle);
+}
+?&gt;
+&lt;/p&gt;
+]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item><item><title><![CDATA[themelink]]></title><slug>themelink</slug><value><![CDATA[&lt;?php get_theme_url(); ?&gt;]]></value></item></channel>
