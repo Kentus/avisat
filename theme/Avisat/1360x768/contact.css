@@ -1,0 +1,103 @@
+﻿.dreapta1 {
+	height: 545px;
+}
+
+.dreapta1 h1 {
+	margin-left: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 20px;
+}
+
+.dreapta1 p {
+	margin-top: -2px;
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	white-space: normal;
+}
+
+.dreapta1 div {
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	white-space: normal;
+}
+
+.dreapta2 {
+	width: 530px;
+	height: 540px;
+	padding-top: 5px;
+}
+
+.dreapta2 p {
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #ffffff;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	white-space: normal;
+	line-height: 10px;
+}
+
+.dreapta2 iframe {
+	width: 500px;
+	height: 250px;
+}
+
+.dreapta2 label {
+	display: inline-block;
+	width: 44px;
+	text-align: right;
+}
+
+.dreapta2 input, .dreapta2 textarea {
+	width: 164px;
+	border: 3px #ffffff solid;
+	background: #ffffff;
+	font-size: 15px;
+}
+.dreapta2 input[type=text] {
+	width: 164px;
+	vertical-align: text-top;
+}
+
+.dreapta2 textarea {
+	width: 440px;
+	height: 95px;
+	vertical-align: text-top;
+}
+
+.dreapta2 input[type=submit] {
+	width: 80px;
+	margin-left: 48px;
+}
+
+.dreapta3 {
+	display: none;
+}
+
+.social {
+	position: relative;
+	float: right;
+	top: 61px;
+	right: 50px;
+	width: 250px;
+	height: 30px;
+	padding: 5px;
+	background: url('../images/social_bg.png');
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.galerie {	
+	display: none;
+}

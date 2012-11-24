@@ -1,0 +1,61 @@
+﻿.dreapta1 h1 {
+	margin-left: 15px;
+	margin-top: 140px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 20px;
+}
+
+.dreapta1 p {
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	white-space: normal;
+}
+
+.dreapta2 h1 {
+	margin-left: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.dreapta2 p {
+	margin-left: 15px;
+	margin-right: 10px;
+	color:#ffffff;
+	font-family:Trebuchet MS, Verdana, Geneva, sans-serif;
+	font-size:15px;
+	white-space: normal;
+}
+
+.dreapta2 img {
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.dreapta2 h2 {
+	margin-left: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.dreapta3 h1 {
+	margin-left: 15px;
+	margin-top: 140px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 20px;
+}
+
+.dreapta3 p {
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	white-space: normal;
+}

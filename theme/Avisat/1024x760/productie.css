@@ -1,0 +1,55 @@
+﻿.dreapta1 {
+	width: 590px;
+	overflow-y:scroll;
+}
+.dreapta1 h1 {
+	margin-left: 15px;
+	margin-top: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 18px;
+}
+
+.dreapta1 p {
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	white-space: normal;
+}
+
+.dreapta1 ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	white-space: normal;
+}
+
+.dreapta1 li
+{
+	padding-left: 25px;
+	padding-bottom: 7px;
+	background-image: url('../images/bullet.png');
+	background-repeat: no-repeat;
+	background-position: 15px 4px; 
+	font-size: 14px;
+}
+
+.dreapta2 p {
+	display: block;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	white-space: normal;
+}
+
+.dreapta2 img {
+	width: 78px;
+}
+
+.dreapta3 {
+	display: none;
+}

@@ -1,0 +1,28 @@
+﻿.dreapta1 img {
+	width: 110px;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+		white-space: normal;
+	overflow: scroll;
+}
+
+.dreapta2 img {
+	width: 110px;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+		white-space: normal;
+	overflow: scroll;
+}
+
+.dreapta2 {
+	width: 400px;
+
+}
+
+.dreapta3 {
+	display: none;
+}

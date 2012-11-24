@@ -1,0 +1,7 @@
+﻿.dreapta {
+	background: url('../images/1360/dreapta_bg_home.jpg');
+}
+
+.dreapta1, .dreapta2, .dreapta3 {
+	visibility: hidden;
+}
