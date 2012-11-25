@@ -1,2 +1,0 @@
-mod de vizualizare
-Acum ori niciodata

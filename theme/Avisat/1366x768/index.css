@@ -2,6 +2,25 @@
 	background: url('../images/1360/dreapta_bg_home.jpg');
 }
 
-.dreapta1, .dreapta2, .dreapta3 {
+.dreapta2 {
+	width: 100%;
+	height: 65px;
+	margin-top: -39px;
+	font-size: 30px;
+	color: #35180f;
+	white-space: normal;
+	text-indent: 10px;
+	text-align: center;
+}
+
+.dreapta1, .dreapta3 {
 	visibility: hidden;
+}
+
+.dreapta3 {
+	width:0px;
+}
+
+.social {
+	top: 260px;
 }
