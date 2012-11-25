@@ -28,13 +28,17 @@
 	font-family:Trebuchet MS, Verdana, Geneva, sans-serif;
 	font-size:12px;
 	white-space: normal;
+	line-height: 30px;
+}
+
+.dreapta2 a {
+	padding-right: 5px;
 }
 
 .dreapta2 img {
-	padding-right: 5px;
-	padding-bottom: 12px;
-	width: 87px;
+	width: 83px;
 	height: 87px;
+	border: 2px #FFFFFF solid;
 }
 
 .dreapta2 h2 {

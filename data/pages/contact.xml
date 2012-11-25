@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Sat, 24 Nov 2012 10:42:17 +0000</pubDate><title><![CDATA[Contact]]></title><url><![CDATA[contact]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Contact]]></menu><menuOrder><![CDATA[5]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;h1&gt;
+<item><pubDate>Sun, 25 Nov 2012 13:10:11 +0000</pubDate><title><![CDATA[Contact]]></title><url><![CDATA[contact]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Contact]]></menu><menuOrder><![CDATA[5]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;h1&gt;
 	CONTACT&lt;/h1&gt;
 &lt;p&gt;
 	&lt;b&gt;Avisat SRL&lt;/b&gt;&lt;br /&gt;
-	&lt;b&gt;Sat:&lt;/b&gt;Slanic&lt;br /&gt;
-	&lt;b&gt;Localitate:&lt;/b&gt;Aninoasa&lt;br /&gt;
-	&lt;b&gt;Judet:&lt;/b&gt;Arges&lt;br /&gt;
+	&lt;b&gt;Sat: &lt;/b&gt;Slanic&lt;br /&gt;
+	&lt;b&gt;Localitate: &lt;/b&gt;Aninoasa&lt;br /&gt;
+	&lt;b&gt;Judet: &lt;/b&gt;Arges&lt;br /&gt;
 	&lt;b&gt;Telefon: &lt;/b&gt;0248/57.71.37&lt;/p&gt;
 &lt;p&gt;
-	&lt;span&gt;PENTRU COMENZI: &lt;/span&gt; &lt;b&gt;avisatslanic@yahoo.com&lt;/b&gt;&lt;br /&gt;
+	&lt;span&gt;PENTRU COMENZI: &lt;/span&gt; &lt;b&gt;&lt;a href=&quot;mailto:avisatslanic@yahoo.com&quot;&gt;avisatslanic@yahoo.com&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
 	Puteti utiliza formularul din stanga a paginii de contact pentru a ne trimite un e-mail.&lt;/p&gt;
 &lt;p&gt;
 	Va asiguram ca veti primi un raspuns in cel mai scurt timp.&lt;/p&gt;
@@ -16,15 +16,15 @@
 	Va multumim.&lt;/p&gt;
 &lt;p&gt;
 	&lt;b&gt;Gheorghe Manole - Director General&lt;/b&gt;&lt;br /&gt;
-	manolegheorghe48@yahoo.com&lt;br /&gt;
+	&lt;a href=&quot;mailto:manolegheorghe48@yahoo.com&quot;&gt;manolegheorghe48@yahoo.com&lt;/a&gt;&lt;br /&gt;
 	0726.230.010&lt;/p&gt;
 &lt;p&gt;
 	&lt;b&gt;Ion David - Inginer Sef&lt;/b&gt;&lt;br /&gt;
-	davidion67@yahoo.com&lt;br /&gt;
+	&lt;a href=&quot;davidion67@yahoo.com&quot;&gt;davidion67@yahoo.com&lt;/a&gt;&lt;br /&gt;
 	0726.029.603&lt;/p&gt;
 &lt;p&gt;
 	&lt;b&gt;Florentina Popescu - Contabil&lt;/b&gt;&lt;br /&gt;
-	popescuflorentina55@yahoo.com&lt;/p&gt;
+	&lt;a href=&quot;popescuflorentina55@yahoo.com&quot;&gt;popescuflorentina55@yahoo.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
 	Vă stăm la dispoziţie pentru orice tip de informaţie legată de serviciile noastre.&lt;/p&gt;
 ]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

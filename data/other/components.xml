@@ -2,8 +2,8 @@
 <channel><item><title><![CDATA[contact]]></title><slug>contact</slug><value><![CDATA[Sat: Slanic&lt;br/&gt;
 Localitate: Aninoasa&lt;br/&gt;
 Judet: Arges&lt;br/&gt;
-Telefon: &lt;span&gt;0248/577137&lt;/span&gt;&lt;br/&gt;
-E-mail: &lt;span&gt;comenzi@avisat.ro&lt;/span&gt;]]></value></item><item><title><![CDATA[contact_dreapta2]]></title><slug>contact_dreapta2</slug><value><![CDATA[&lt;p&gt;
+Telefon: &lt;span&gt;0248/57.71.37&lt;/span&gt;&lt;br/&gt;
+E-mail: &lt;a href=&quot;mailto:comenzi@avisat.ro&quot;&gt;&lt;span&gt;comenzi@avisat.ro&lt;/span&gt;&lt;/a&gt;]]></value></item><item><title><![CDATA[contact_dreapta2]]></title><slug>contact_dreapta2</slug><value><![CDATA[&lt;p&gt;
 	&lt;iframe frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=ro&amp;amp;geocode=&amp;amp;q=Avisat+srl,+DN73C,+Sl%C4%83nic,+Arge%C8%99,+Rom%C3%A2nia&amp;amp;aq=0&amp;amp;oq=avisat&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=34.808514,135.263672&amp;amp;ie=UTF8&amp;amp;hq=Avisat+srl,&amp;amp;hnear=DN73C,+Rom%C3%A2nia&amp;amp;t=h&amp;amp;ll=45.228118,24.892402&amp;amp;spn=0.009067,0.012875&amp;amp;z=15&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;script type=&quot;text/javascript&quot;&gt;
@@ -56,19 +56,9 @@ function verifica() {
 &lt;/p&gt;
 &lt;/form&gt;]]></value></item><item><title><![CDATA[descriere]]></title><slug>descriere</slug><value><![CDATA[&lt;div class=&quot;descriere&quot;&gt;10 ani de experienta in &lt;br/&gt;comercializarea de material lemnos
 &lt;/div&gt;]]></value></item><item><title><![CDATA[despre-noi_dreapta2]]></title><slug>despre-noi_dreapta2</slug><value><![CDATA[&lt;p&gt;
-&lt;?php
-
-if ($handle = opendir(&#039;despre-noi&#039;)) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry[0] != &#039;.&#039;)
-        	echo &#039;
-        	&lt;a class=&quot;fancybox&quot; href=&quot;despre-noi/&#039;.$entry.&#039;&quot; data-fancybox-group=&quot;productie&quot; title=&quot;&quot;&gt;&lt;img src=&quot;despre-noi/&#039;.$entry.&#039;&quot; alt /&gt;&lt;/a&gt;&#039;;
-    }
-    closedir($handle);
-}
-?&gt;
+&lt;?php get_i18n_gallery(&#039;despre-noi&#039;); ?&gt;
 &lt;/p&gt;]]></value></item><item><title><![CDATA[despre-noi_dreapta3]]></title><slug>despre-noi_dreapta3</slug><value><![CDATA[&lt;h1&gt;MISIUNE&lt;/h1&gt;
-&lt;p&gt;Lemnul este materia primă cea mai de preţ. De aceea, ne implicăm în totalitate pentru a-l valorifica, a-l procesa şi a-l livra clienţilor noştri la cea mai bună calitate, în mod eficient şi în condiţii optime.  &lt;/p&gt;]]></value></item><item><title><![CDATA[index_dreapta2]]></title><slug>index_dreapta2</slug><value><![CDATA[Bine ați venit! Avisat SRL este o societate care are ca principal obiectiv de activitate comerțul de material lemnos]]></value></item><item><title><![CDATA[portofoliu_dreapta2]]></title><slug>portofoliu_dreapta2</slug><value><![CDATA[&lt;div class=&quot;constructii_nextprev&quot;&gt;
+&lt;p&gt;Lemnul este materia primă cea mai de preţ. De aceea, ne implicăm în totalitate pentru a-l valorifica, a-l procesa şi a-l livra clienţilor noştri la cea mai bună calitate, în mod eficient şi în condiţii optime.  &lt;/p&gt;]]></value></item><item><title><![CDATA[index_dreapta2]]></title><slug>index_dreapta2</slug><value><![CDATA[Bine ati venit!&lt;br/&gt;Avisat SRL este o societate care are ca principal obiectiv de activitate comertul de material lemnos.]]></value></item><item><title><![CDATA[portofoliu_dreapta2]]></title><slug>portofoliu_dreapta2</slug><value><![CDATA[&lt;div class=&quot;constructii_nextprev&quot;&gt;
 &lt;a class=&quot;constructii_prev&quot; href=&quot;#&quot; onclick=&quot;return constructii_prev();&quot;&gt;&lt;/a&gt;
 &lt;a class=&quot;constructii_next&quot; href=&quot;#&quot; onclick=&quot;return constructii_next();&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -87,16 +77,6 @@ if ($handle = opendir(&#039;despre-noi&#039;)) {
 &lt;/div&gt;
 ]]></value></item><item><title><![CDATA[productie_dreapta2]]></title><slug>productie_dreapta2</slug><value><![CDATA[&lt;p&gt;
 &lt;a href=&quot;index.php?id=tratarea-lemnului&quot;&gt;Tratarea Lemnului&lt;/a&gt;
-&lt;/p&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item><item><title><![CDATA[stiri_dreapta2]]></title><slug>stiri_dreapta2</slug><value><![CDATA[&lt;?php nm_list_titles(); ?&gt;]]></value></item><item><title><![CDATA[themelink]]></title><slug>themelink</slug><value><![CDATA[&lt;?php get_theme_url(); ?&gt;]]></value></item><item><title><![CDATA[tratarea-lemnului_dreapta2]]></title><slug>tratarea-lemnului_dreapta2</slug><value><![CDATA[&lt;p&gt;
-&lt;?php
-
-if ($handle = opendir(&#039;tratare/imagini&#039;)) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry[0] != &#039;.&#039;)
-        	echo &#039;
-        	&lt;a class=&quot;fancybox&quot; href=&quot;tratare/imagini/&#039;.$entry.&#039;&quot; data-fancybox-group=&quot;productie&quot; title=&quot;&quot;&gt;&lt;img src=&quot;tratare/imagini/&#039;.$entry.&#039;&quot; alt /&gt;&lt;/a&gt;&lt;br/&gt;&#039;;
-    }
-    closedir($handle);
-}
-?&gt;
+&lt;/p&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt;&lt;/a&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;&lt;/a&gt;]]></value></item><item><title><![CDATA[stiri_dreapta2]]></title><slug>stiri_dreapta2</slug><value><![CDATA[&lt;?php nm_list_titles(); ?&gt;]]></value></item><item><title><![CDATA[tratarea-lemnului_dreapta2]]></title><slug>tratarea-lemnului_dreapta2</slug><value><![CDATA[&lt;p&gt;
+&lt;?php get_i18n_gallery(&#039;tratarea-lemnului&#039;); ?&gt;
 &lt;/p&gt;]]></value></item></channel>
