@@ -66,30 +66,25 @@ function verifica() {
 
 &lt;h2&gt;NUME PRENUME&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;]]></value></item><item><title><![CDATA[despre-noi_dreapta3]]></title><slug>despre-noi_dreapta3</slug><value><![CDATA[&lt;h1&gt;MISIUNE&lt;/h1&gt;
-&lt;p&gt;Lemnul este materia primă cea mai de preţ. De aceea, ne implicăm în totalitate pentru a-l valorifica, a-l procesa şi a-l livra clienţilor noştri la cea mai bună calitate, în mod eficient şi în condiţii optime.  &lt;/p&gt;]]></value></item><item><title><![CDATA[portofoliu_dreapta1]]></title><slug>portofoliu_dreapta1</slug><value><![CDATA[&lt;?php
-
-if ($handle = opendir(&#039;portofoliu&#039;)) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry[0] != &#039;.&#039;)
-        	echo &#039;
-        	&lt;a class=&quot;fancybox&quot; href=&quot;portofoliu/&#039;.$entry.&#039;&quot; data-fancybox-group=&quot;portofoliu&quot; title=&quot;&quot;&gt;&lt;img src=&quot;portofoliu/&#039;.$entry.&#039;&quot; alt /&gt;&lt;/a&gt;&#039;;
-    }
-    closedir($handle);
-}
-?&gt;
-]]></value></item><item><title><![CDATA[portofoliu_dreapta2]]></title><slug>portofoliu_dreapta2</slug><value><![CDATA[&lt;?php
-
-if ($handle = opendir(&#039;portofoliu&#039;)) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry[0] != &#039;.&#039;)
-        	echo &#039;
-        	&lt;a class=&quot;fancybox&quot; href=&quot;portofoliu/&#039;.$entry.&#039;&quot; data-fancybox-group=&quot;portofoliu&quot; title=&quot;&quot;&gt;&lt;img src=&quot;portofoliu/&#039;.$entry.&#039;&quot; alt /&gt;&lt;/a&gt;&#039;;
-    }
-    closedir($handle);
-}
-?&gt;
+&lt;p&gt;Lemnul este materia primă cea mai de preţ. De aceea, ne implicăm în totalitate pentru a-l valorifica, a-l procesa şi a-l livra clienţilor noştri la cea mai bună calitate, în mod eficient şi în condiţii optime.  &lt;/p&gt;]]></value></item><item><title><![CDATA[portofoliu_dreapta2]]></title><slug>portofoliu_dreapta2</slug><value><![CDATA[&lt;div class=&quot;constructii_nextprev&quot;&gt;
+&lt;a class=&quot;constructii_prev&quot; href=&quot;#&quot; onclick=&quot;return constructii_prev();&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;constructii_next&quot; href=&quot;#&quot; onclick=&quot;return constructii_next();&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;constructii_wrapper&quot;&gt;
+&lt;div class=&quot;constructii_container&quot;&gt;
+&lt;?php get_i18n_gallery(&#039;constructii&#039;); ?&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></value></item><item><title><![CDATA[portofoliu_dreapta3]]></title><slug>portofoliu_dreapta3</slug><value><![CDATA[&lt;div class=&quot;mobilier_nextprev&quot;&gt;
+&lt;a class=&quot;mobilier_prev&quot; href=&quot;#&quot; onclick=&quot;return mobilier_prev();&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;mobilier_next&quot; href=&quot;#&quot; onclick=&quot;return mobilier_next();&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobilier_wrapper&quot;&gt;
+&lt;div class=&quot;mobilier_container&quot;&gt;
+&lt;?php get_i18n_gallery(&#039;mobilier&#039;); ?&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 ]]></value></item><item><title><![CDATA[productie_dreapta2]]></title><slug>productie_dreapta2</slug><value><![CDATA[&lt;p&gt;
-&lt;a href=&quot;tratarea-lemnului&quot;&gt;Tratarea Lemnului&lt;/a&gt;
+&lt;a href=&quot;index.php?id=tratarea-lemnului&quot;&gt;Tratarea Lemnului&lt;/a&gt;
 &lt;/p&gt;]]></value></item><item><title><![CDATA[social]]></title><slug>social</slug><value><![CDATA[&amp;copy; Copyright 2012 Avisat &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;      &lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/facebook.png&quot; alt&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/twitter.png&quot; alt&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/flickr.png&quot; alt&gt;]]></value></item><item><title><![CDATA[stiri_dreapta2]]></title><slug>stiri_dreapta2</slug><value><![CDATA[&lt;?php nm_list_titles(); ?&gt;]]></value></item><item><title><![CDATA[themelink]]></title><slug>themelink</slug><value><![CDATA[&lt;?php get_theme_url(); ?&gt;]]></value></item><item><title><![CDATA[tratarea-lemnului_dreapta2]]></title><slug>tratarea-lemnului_dreapta2</slug><value><![CDATA[&lt;p&gt;
 &lt;?php
 

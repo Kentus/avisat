@@ -1,0 +1,72 @@
+﻿.dreapta1 {
+	display: none;
+}
+
+.dreapta2 {
+	float: right;
+	width: 530px;
+}
+
+.dreapta3 {
+	float: left;
+	width: 530px;
+}
+
+.constructii_nextprev, .mobilier_nextprev  {
+	position: relative;
+	float: right;	
+	width: 50px;
+	height: 320px;
+	white-space: normal;
+}
+
+.constructii_prev{
+	display: block;
+	width: 50px;
+	height: 160px;
+	background: url('../images/up.png') transparent no-repeat scroll center center;
+}
+
+.constructii_next{
+	display: block;
+	width: 50px;
+	height: 160px;
+	background: url('../images/down.png') transparent no-repeat scroll center center;
+}
+
+.mobilier_prev {
+	display: block;
+	width: 50px;
+	height: 160px;
+	background: url('../images/up2.png') transparent no-repeat scroll center center;
+}
+
+.mobilier_next {
+	display: block;
+	width: 50px;
+	height: 160px;
+	background: url('../images/down2.png') transparent no-repeat scroll center center;
+}
+
+.constructii_wrapper, .mobilier_wrapper {
+	width: 480px;
+	height: 320px;
+	overflow: hidden;
+}
+
+.constructii_container, .mobilier_container {
+	position: relative;
+	padding: 3px 0 0 3px;
+}
+
+.constructii_container a, .mobilier_container a {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.constructii_container img, .mobilier_container img {
+	width: 132px;
+	height: 72px;
+	border: 2px #FFFFFF	solid;
+}

@@ -1,0 +1,34 @@
+﻿.dreapta1 {
+	width: 950px;
+	overflow: scroll;
+}
+
+.dreapta2 {
+	width: 110px;
+}
+
+.dreapta1 h1 {
+	margin-left: 15px;
+	margin-top: 15px;
+	font-family: Helvetica LT Std, Verdana, Geneva, sans-serif;
+	color: #35180f;
+	font-size: 18px;
+}
+
+.dreapta1 p {
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	white-space: normal;
+}
+
+.dreapta2 img {
+	margin-left: 6px;
+	width: 94px;
+}
+
+.dreapta3 {
+	display:none;
+}

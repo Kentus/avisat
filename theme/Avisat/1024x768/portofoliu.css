@@ -1,0 +1,84 @@
+﻿.dreapta1 {
+	display: none;
+}
+
+.dreapta2 {
+	float: right;
+	width: 400px;
+}
+
+.dreapta3 {
+	float: left;
+	width: 390px;
+}
+
+.constructii_nextprev {
+	position: relative;
+	float: right;	
+	width: 40px;
+	height: 320px;
+	white-space: normal;
+}
+
+.mobilier_nextprev  {
+	position: relative;
+	float: right;	
+	width: 40px;
+	height: 320px;
+	white-space: normal;
+}
+
+.constructii_prev{
+	display: block;
+	width: 40px;
+	height: 160px;
+	background: url('../images/up.png') transparent no-repeat scroll center center;
+}
+
+.constructii_next{
+	display: block;
+	width: 40px;
+	height: 160px;
+	background: url('../images/down.png') transparent no-repeat scroll center center;
+}
+
+.mobilier_prev {
+	display: block;
+	width: 40px;
+	height: 160px;
+	background: url('../images/up2.png') transparent no-repeat scroll center center;
+}
+
+.mobilier_next {
+	display: block;
+	width: 40px;
+	height: 160px;
+	background: url('../images/down2.png') transparent no-repeat scroll center center;
+}
+
+.constructii_wrapper, .mobilier_wrapper {
+	width: 350px;
+	height: 320px;
+	overflow: hidden;
+}
+
+.constructii_wrapper {
+	padding-left: 10px;
+}
+
+.constructii_container, .mobilier_container {
+	position: relative;
+	padding: 3px 0 0 3px;
+}
+
+.constructii_container a, .mobilier_container a {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.constructii_container img, .mobilier_container img {
+	width: 94px;
+	height: 72px;
+	border: 2px #FFFFFF	solid;
+}
